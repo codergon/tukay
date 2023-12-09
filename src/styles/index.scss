@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "utils/breakpoints";
+@import "utils/mixins";
+@import "utils/functions";
+@import "utils/partials";
+
+@import "core/variables";
+@import "core/globals";
+
+@import "components/sidebar";
+@import "components/searchbar";

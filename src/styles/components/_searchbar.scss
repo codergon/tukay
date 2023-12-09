@@ -1,0 +1,37 @@
+.search-bar {
+  @extend %row-center;
+  flex: 1;
+  gap: 8px;
+  max-width: 480px;
+  overflow: hidden;
+  padding: 2px 13px;
+  padding-left: 12px;
+  border-radius: 10px;
+
+  input {
+    flex: 1;
+    height: 30px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    background: transparent;
+    &:active,
+    &:focus {
+      outline: none;
+      border: none;
+    }
+  }
+  &__shortcut {
+    @extend %row-middle;
+    height: 22px;
+    padding: 0px 8px;
+    font-size: 10px;
+    border-radius: 6px;
+    text-transform: uppercase;
+  }
+  &__icon {
+    aspect-ratio: 1;
+    border-radius: 28px;
+    @extend %row-middle;
+  }
+}

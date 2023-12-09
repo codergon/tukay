@@ -1,0 +1,28 @@
+$grey: #999;
+$white: #ffffff;
+$black: #000010;
+
+$primary: #66b0ff;
+$primary: #3358d3;
+
+$secondary: #cfdddb;
+
+$sidebar-w: 270px;
+$page-content-w: 930px;
+$page-sidebar-w: 310px;
+$content-w: calc(100% - #{$sidebar-w});
+
+$navbar-w: 1110px;
+$hor-padding: 40px;
+
+// Z-indexes
+$z-indexes: (
+  "preloader",
+  "loader",
+  "modal",
+  "overlay",
+  "nav",
+  "topbar",
+  "menu",
+  "content"
+);
