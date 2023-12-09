@@ -1,14 +1,13 @@
 import Created from "./tabs/created";
 import Particpated from "./tabs/particpated";
-import { Box, Flex, Tabs, Heading } from "@radix-ui/themes";
+import AirdropHeader from "./components/header";
+import { Box, Flex, Tabs } from "@radix-ui/themes";
 
 const Airdrop = () => {
   return (
     <>
       <Flex gap="6" width={"100%"} direction="column">
-        <Heading size="8" className="mb-6">
-          Airdrop
-        </Heading>
+        <AirdropHeader />
 
         <Tabs.Root defaultValue="created">
           <Tabs.List>

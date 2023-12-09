@@ -4,6 +4,9 @@ export default {
   darkMode: "class",
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
+    fontFamily: {
+      sans: ["Aeonik"],
+    },
     extend: {
       colors: {
         primary: "#66b0ff",

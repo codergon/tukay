@@ -50,7 +50,7 @@ const Searchbar = ({
         type="text"
         onFocus={() => setFocused(true)}
         onBlur={() => setFocused(false)}
-        placeholder={placeholder || "Search for give-aways, airdrops,..."}
+        placeholder={placeholder || "Search for giveaways, airdrops,..."}
       />
 
       <div className="search-bar__shortcut">

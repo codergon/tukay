@@ -2,6 +2,7 @@ import "./utils/axios";
 import "./styles/index.scss";
 import * as React from "react";
 import "@radix-ui/themes/styles.css";
+import "./styles/core/theme-config.css";
 import * as ReactDOM from "react-dom/client";
 import Providers from "./contexts/providers";
 

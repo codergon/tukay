@@ -71,7 +71,10 @@ const Created = () => {
           },
         ].map((item, index) => {
           return (
-            <div className="gap-4 flex max-w-full p-4 w-full bg-neutral-50 border-[1px] border-neutral-300 rounded-2xl flex-col dark:bg-neutral-850 dark:border-neutral-750">
+            <div
+              key={index}
+              className="gap-4 flex max-w-full p-4 w-full bg-neutral-50 border-[1px] border-neutral-300 rounded-2xl flex-col dark:bg-neutral-850 dark:border-neutral-750"
+            >
               <Flex
                 gap="3"
                 align={"center"}

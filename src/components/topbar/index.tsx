@@ -9,7 +9,7 @@ const Topbar = () => {
     data: blockNo,
     isError: blockErr,
     isLoading: loadingBal,
-  } = useBlockNumber();
+  } = useBlockNumber({ chainId: 1 });
 
   return (
     <div className="topbar py-[14px] flex flex-row align-middle justify-between min-h-[54px] border-b-2 w-full mb-8 border-slate-100 dark:border-zinc-850">

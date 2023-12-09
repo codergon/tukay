@@ -13,7 +13,7 @@ const App = function () {
   return (
     <>
       <Theme
-        radius="full"
+        radius="large"
         scaling="100%"
         grayColor="sand"
         accentColor="indigo"

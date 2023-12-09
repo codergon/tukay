@@ -57,8 +57,8 @@ const navlinks = {
       ),
     },
     {
+      name: "Giveaways",
       link: "/giveaways",
-      name: "Give-aways",
       icon: (isActive = false) => (
         <Lightning size={20} weight={isActive ? "fill" : "regular"} />
       ),
@@ -243,16 +243,7 @@ const Sidebar = () => {
       <div className="sidebar__footer">
         <DropdownMenu.Root>
           <DropdownMenu.Trigger>
-            <Button
-              size="3"
-              color="gray"
-              radius="full"
-              variant="surface"
-              // className="focus:outline-none"
-              style={{
-                cursor: "pointer",
-              }}
-            >
+            <Button size="3" color="gray" radius="full" variant="surface">
               <Flex gap="2" align="center" direction="row" justify="center">
                 <Gear size={16} />
                 <Box>
